@@ -14,6 +14,10 @@ body {
   /* Needed to position the navbar */
   position: relative; }
 
+.contato {
+  color: #6699ff;
+  text-decoration: none; }
+
 /* Position the navbar container inside the image */
 .container {
   position: absolute;
@@ -80,3 +84,29 @@ body {
 .current {
   background-color: #cca300;
   color: black; }
+
+* {
+  box-sizing: border-box; }
+
+.row {
+  border-top-style: groove;
+  border-color: #ddd;
+  margin: 20px; }
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 20px;
+  /*padding: 10px;*/ }
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .column {
+    width: 100%; } }
