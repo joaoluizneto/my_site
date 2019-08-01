@@ -5,7 +5,7 @@ body {
 
 .img_fundo {
   /* The image used */
-  background-image: url("/assets/images/antenas.jpg");
+  background-image: url("../images/antenas.jpg");
   min-height: 350px;
   /* Center and scale the image nicely */
   background-position: center;
